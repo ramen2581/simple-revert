@@ -329,9 +329,8 @@ def main():
         sys.stderr.write('No changes to upload.\n')
     elif sys.stdout.isatty():
         tags = {
-            'created_by': 'simple_revert.py',
-            'comment': comment or 'Reverting {0}'.format(', '.join(
-                ['{0} by {1}'.format(str(x), ch_users[x]) for x in changesets]))
+            'created_by': 'Joe 69.420',
+            'comment': comment or 'Reverting'
         }
         upload_changes(changes, tags)
     else:
