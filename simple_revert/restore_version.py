@@ -11,7 +11,7 @@ from .common import (
     etree
 )
 
-MAX_DEPTH = 10
+MAX_DEPTH = 20
 MAX_OBJECTS = 20  # might reach a max comment length first
 
 
